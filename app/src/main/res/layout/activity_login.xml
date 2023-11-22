@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupback"
+    android:padding="16dp"
+    tools:context=".activity.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/edittext_border"
+        android:text="Log In"
+        android:textAlignment="center"
+android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="#2656D1"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/EtxtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLogin"
+        android:layout_margin="20dp"
+        android:background="@drawable/edittext_border"
+        android:hint="UserName"
+        android:inputType="text"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/EtxtUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EtxtUserName"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittext_border"
+        android:hint="Password"
+
+        android:inputType="numberPassword"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EtxtUserPassword"
+        android:background="@color/colorPrimary"
+        android:text="Log IN"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtNot_Register_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:minHeight="50dp"
+        android:text="Not registed?Signup"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic|bold" />
+
+
+</RelativeLayout>
